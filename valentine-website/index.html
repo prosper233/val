@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/sojijr/valentine-website/main/public/images/favicon.png">
+  <link rel="icon" href="public/images/favicon.png" type="image/x-icon" />
+  <title>Happy Valentine's Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+  <canvas id="starfield"></canvas>
+
+  <!-- Modal for Recipient Details -->
+  <div id="recipientModal" class="modal">
+    <div class="modal-content">
+      <h2>Welcome!</h2>
+      <p>Please enter your details to continue 💖</p>
+      <input type="text" id="recipientName" placeholder="Enter your name" required>
+      <input type="email" id="recipientEmail" placeholder="Enter your email" required>
+      <button id="startExperience">Start ❤</button>
+    </div>
+  </div>
+
+  <div id="center-container">
+    <button id="valentinesButton">Click Me! ❤</button>
+    <p id="trafficMessage" style="display: none;"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

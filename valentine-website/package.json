@@ -1,0 +1,21 @@
+{
+  "name": "valentine-website",
+  "version": "1.0.0",
+  "description": "A valentine website for your bae. <br>\r This project gives you a template to use and edit for your valentine website instead of building one from scratch <br>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sojijr/valentine-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sojijr/valentine-website/issues"
+  },
+  "homepage": "https://github.com/sojijr/valentine-website#readme"
+}
